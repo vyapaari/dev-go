@@ -13,7 +13,7 @@ import (
 	"github.com/microsoft/vscode-remote-try-go/hello"
 )
 
-func handle(w http.ResponseWriter, r *http.Request) {
+func handle(w http.ResponseWriter, r *http.Request) { 
 	io.WriteString(w, hello.Hello())
 }
 
