@@ -10,10 +10,10 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/microsoft/vscode-remote-try-go/hello"
+	"github.com/vyapaari/go-dev/hello/hello"
 )
 
-func handle(w http.ResponseWriter, r *http.Request) { 
+func handle(w http.ResponseWriter, r *http.Request) {
 	io.WriteString(w, hello.Hello())
 }
 
