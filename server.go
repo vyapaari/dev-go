@@ -10,7 +10,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/vyapaari/go-dev/hello"
+	"/go-dev/hello"
 )
 
 func handle(w http.ResponseWriter, r *http.Request) {
